@@ -4,4 +4,5 @@
 ![image](https://user-images.githubusercontent.com/68413810/137683773-3e5495ee-b214-4557-8b18-f7acea046b74.png)
 
 3. 注意赛题文件夹设置为英文名字,从根目录一直到赛题目录不要出现任何中文,另外:身为程序员,尽早改掉中文目录命名的习惯,这是个很不好的习惯
-4. 
+4. 修改Dockerfile,第四行,```COPY ./XXXXX /var/www/html``` XXXXX替换为赛题文件夹的名字,比如本题为BABY_GET
+5. 修改
